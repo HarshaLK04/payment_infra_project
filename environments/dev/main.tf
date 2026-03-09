@@ -23,6 +23,6 @@ module "rds" {
 
   db_name     = "paymentdb"
   db_username = "admin"
-  db_password = "password123"
+  db_password = "password@6966"
   subnet_ids  = module.vpc.private_subnets
 }
